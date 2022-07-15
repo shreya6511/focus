@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Focus",
+    "description": "Blocks distracting applications in a pomodoro productivity style",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["Content.js"]
+        }
+    ]
+}
